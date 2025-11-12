@@ -280,7 +280,7 @@ void AreasOfTriangles() {
 			}
 
 			//compute all delta vectors for each layer
-			deltas3[0] = alpha * (targets_training[record] - models3[0]);  //firs one is scalar
+			deltas3[0] = alpha * (targets_training[record] - models3[0]);  //first one is scalar
 
 			for (int j = 0; j < nU2; ++j) {
 				deltas2[j] = 0.0;
@@ -829,3 +829,4 @@ int main() {
 	Medians();
 	Tetrahedrons();
 }
+
